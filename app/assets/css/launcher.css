@@ -8,18 +8,13 @@
  ******************************************************************************/
 
 @font-face {
-    font-family: 'Avenir Book';
-    src: url('../fonts/Avenir-Book.ttf');
-}
-
-@font-face {
-    font-family: 'Avenir Medium';
-    src: url('../fonts/Avenir-Medium.ttf');
+    font-family: '나눔바른펜';
+    src: url('../fonts/NanumBarunpenR.ttf');
 }
 
 @font-face {
     font-family: 'Ringbearer';
-    src: url('../fonts/Ringbearer.ttf');
+    src: url('../fonts/NanumBarunpenR.ttf');
 }
 
 /*******************************************************************************
@@ -42,7 +37,8 @@ p {
 
 /* Set default font and color. */
 body, button {
-    font-family: 'Avenir Book';
+    font-family: '나눔바른펜';
+    font-size: 20px;
     color: white;
 }
 
@@ -110,7 +106,7 @@ body, button {
 }
 #frameTitleText {
     font-size: 14px;
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
     letter-spacing: 0.5px;
 }
 
@@ -284,7 +280,7 @@ body, button {
 }
 
 #welcomeHeader {
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
     text-align: center;
     color: white;
     margin-bottom: 25px;
@@ -310,7 +306,7 @@ body, button {
 /* Login button styles. */
 #welcomeButton {
     background: none;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: 2px;
     border: none;
     padding: 15px 5px;
@@ -371,9 +367,9 @@ body, button {
 
 /* Styles for dimmer login span. */
 .loginSpanDim {
-    font-size: 12px;
+    font-size: 20px;
     color: #848484;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Main login container. */
@@ -469,9 +465,9 @@ body, button {
 
 /* Login form anchor styles. */
 #loginForm a {
-    font-size: 12px;
+    font-size: 20px;
     color: #848484;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
     transition: 0.25s ease;
 }
@@ -497,11 +493,11 @@ body, button {
 
 /* Header on login view. */
 #loginSubheader {
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
     margin-bottom: 25px;
-    font-size: 12px;
+    font-size: 20px;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Container to organize login field elements. */
@@ -522,8 +518,8 @@ body, button {
 
 /* Span which displays errors related to login field content. */
 .loginErrorSpan {
-    font-family: 'Avenir Medium';
-    font-weight: bold;
+    font-family: '나눔바른펜';
+    font-weight: normal;
     font-size: 8px;
     color: #ff1b0c;
     width: 100%;
@@ -558,7 +554,7 @@ body, button {
 
 /* Login text input styles. */
 .loginField {
-    font-family: 'Avenir Book';
+    font-family: '나눔바른펜';
     background: none;
     border-width: 1.5px 0px 0px 0px;
     border-style: solid;
@@ -566,11 +562,11 @@ body, button {
     margin-bottom: 20px;
     border-color: #fff;
     color: rgba(255, 255, 255, 0.75);
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     box-sizing: border-box;
     padding: 7.5px;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 .loginField:focus {
@@ -581,10 +577,10 @@ body, button {
 }
 .loginField::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.75);
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 1px;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 .loginField:focus::-webkit-input-placeholder {
     color: transparent;
@@ -611,7 +607,7 @@ body, button {
 /* Login button styles. */
 #loginButton {
     background: none;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: 2px;
     border: none;
     padding: 15px 5px;
@@ -786,9 +782,9 @@ body, button {
 
 /* Disclaimer text styles. */
 .loginDisclaimerText {
-    font-size: 7px;
+    font-size: 10px;
     color: #848484;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
 }
 
@@ -1022,7 +1018,7 @@ body, button {
     border: none;
     padding: 2px 0px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     color: lightgrey;
     cursor: pointer;
     outline: none;
@@ -1222,10 +1218,11 @@ body, button {
 }
 .settingsTabHeaderText {
     font-size: 20px;
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
+    font-weight: bold;
 }
 .settingsTabHeaderDesc {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /* Selected server content container */
@@ -1259,9 +1256,9 @@ body, button {
     border: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     background: none;
-    font-size: 12px;
+    font-size: 20px;
     border-radius: 3px;
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
     transition: 0.25s ease;
     cursor: pointer;
     outline: none;
@@ -1293,7 +1290,7 @@ body, button {
     background: rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     border: 1px solid rgba(126, 126, 126, 0.57);
-    font-family: 'Avenir Book';
+    font-family: '나눔바른펜';
     transition: 0.25s ease;
 }
 #settingsContainer input[type=number]:focus,
@@ -1321,8 +1318,8 @@ body, button {
     flex-direction: column;
 }
 .settingsFieldTitle {
-    font-size: 14px;
-    font-family: 'Avenir Medium';
+    font-size: 15px;
+    font-family: '나눔바른펜';
     color: rgba(255, 255, 255, 0.95);
 }
 .settingsFieldDesc {
@@ -1452,7 +1449,7 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 0px !important;
     width: 100%;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 20px;
     height: 30px;
 }
 
@@ -1460,7 +1457,7 @@ input:checked + .toggleSwitchSlider:before {
 .settingsFileSelButton {
     border: 0px;
     border-radius: 0px 3px 3px 0px;
-    font-size: 12px;
+    font-size: 20px;
     padding: 0px 5px;
     cursor: pointer;
     background: rgba(126, 126, 126, 0.57);
@@ -1479,13 +1476,13 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Description for the file selector. */
 .settingsFileSelDesc {
-    font-size: 10px;
+    font-size: 15px;
     margin: 20px 0px;
     color: lightgrey;
     width: 89%;
 }
 .settingsFileSelDesc strong {
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
 }
 
 /* * *
@@ -1590,10 +1587,10 @@ input:checked + .toggleSwitchSlider:before {
     flex-direction: column;
 }
 .settingsAuthAccountDetailTitle {
-    font-size: 12px;
+    font-size: 20px;
     color: grey;
-    font-weight: bold;
-    font-family: 'Avenir Medium';
+    font-weight: normal;
+    font-family: '나눔바른펜';
 }
 .settingsAuthAccountDetailValue {
     font-size: 14px;
@@ -1615,7 +1612,7 @@ input:checked + .toggleSwitchSlider:before {
     border: none;
     white-space: nowrap;
     background: none;
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
     outline: none;
     transition: 0.25s ease;
 }
@@ -1638,9 +1635,9 @@ input:checked + .toggleSwitchSlider:before {
     border: 1px solid rgb(241, 55, 55);
     color: rgb(241, 55, 55);
     background: none;
-    font-size: 12px;
+    font-size: 20px;
     border-radius: 3px;
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
     transition: 0.25s ease;
     cursor: pointer;
     outline: none;
@@ -1714,7 +1711,7 @@ input:checked + .toggleSwitchSlider:before {
 #settingsReqModsContent,
 #settingsOptModsContent,
 #settingsDropinModsContent {
-    font-size: 12px;
+    font-size: 20px;
     background: rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     color: white;
@@ -1764,7 +1761,7 @@ input:checked + .toggleSwitchSlider:before {
 /* The version of the mod. */
 .settingsModVersion {
     color: grey;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 /* Disabled toggleswitch for required mods. */
@@ -1822,7 +1819,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 /* Refresh instructions on the file system button. */
 #settingsDropinRefreshNote {
-    font-size: 10px;
+    font-size: 15px;
     pointer-events: none;
 }
 
@@ -1830,11 +1827,11 @@ input:checked + .toggleSwitchSlider:before {
 .settingsDropinRemoveButton {
     background: none;
     border: none;
-    font-size: 10px;
+    font-size: 15px;
     text-align: left;
     padding: 0px;
     color: #c32625;
-    font-weight: bold;
+    font-weight: normal;
     cursor: pointer;
     outline: none;
     transition: 0.25s ease;
@@ -1850,10 +1847,10 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Shaderpack settings description. */
 #settingsShaderpackDesc {
-    font-size: 10px;
+    font-size: 15px;
     margin: 10px 0px;
     color: lightgrey;
-    font-weight: bold;
+    font-weight: normal;
     width: 89%;
 }
 
@@ -1955,7 +1952,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 .settingsSelectOptions div {
     border-width: 0px 0px 1px 0px;
-    font-size: 12px;
+    font-size: 20px;
     padding: 4px 16px;
 }
 .settingsSelectOptions div:last-child {
@@ -2058,9 +2055,9 @@ input:checked + .toggleSwitchSlider:before {
     align-items: center;
 }
 .settingsMemoryStatusTitle {
-    font-size: 12px;
+    font-size: 20px;
     color: grey;
-    font-weight: bold;
+    font-weight: normal;
 }
 .settingsMemoryStatusValue {
     color: lightgrey;
@@ -2069,17 +2066,17 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Description for memory management. */
 #settingsMemoryDesc {
-    font-size: 10px;
+    font-size: 15px;
     margin: 20px 0px;
     color: lightgrey;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Status text which displays details on the selected executable. */
 #settingsJavaExecDetails {
-    font-weight: bold;
+    font-weight: normal;
     color: grey;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 /* Main container for the JVM options setting. */
@@ -2103,7 +2100,7 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 0px 3px 3px 0px !important;
     width: 100%;
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 20px;
 }
 #settingsJVMOptsContent:focus-within > .settingsJavaIcon {
     background: rgba(126, 126, 126, 0.87);
@@ -2111,10 +2108,10 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Description for the JVM options setting. */
 #settingsJVMOptsDesc {
-    font-size: 10px;
+    font-size: 15px;
     margin: 20px 0px;
     color: lightgrey;
-    font-weight: bold;
+    font-weight: normal;
     width: 89%;
 }
 
@@ -2178,12 +2175,12 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 50%;
     background: #23aa23;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     margin: 11px 12px;
     color: white;
     height: 15px;
     width: 15px;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 17px;
 }
 
@@ -2194,17 +2191,17 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Release type text. */
 #settingsAboutCurrentVersionTitle {
-    font-size: 12px;
-    font-family: 'Avenir Medium';
+    font-size: 20px;
+    font-family: '나눔바른펜';
     color: #23aa23;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Current version text. */
 #settingsAboutCurrentVersionLine {
-    font-size: 10px;
+    font-size: 15px;
     color: grey;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* About information links. */
@@ -2216,7 +2213,7 @@ input:checked + .toggleSwitchSlider:before {
 .settingsAboutButton {
     background: none;
     border: none;
-    font-size: 10px;
+    font-size: 15px;
     color: grey;
     padding: 0px 5px;
     transition: 0.25s ease;
@@ -2257,14 +2254,14 @@ input:checked + .toggleSwitchSlider:before {
 }
 /* Changelog header label. */
 .settingsChangelogLabel {
-    font-size: 12px;
+    font-size: 20px;
     color: grey;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Changelog text content container. */
 .settingsChangelogText {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 /* Styles for the changelog elements. */
@@ -2284,7 +2281,7 @@ input:checked + .toggleSwitchSlider:before {
     background-color: rgba(255, 255, 255, 0.25);
     color: white;
     border-radius: 3px;
-    font-family: 'Avenir Book';
+    font-family: '나눔바른펜';
 }
 .settingsChangelogText li+li {
     margin-top: .25em;
@@ -2304,7 +2301,7 @@ input:checked + .toggleSwitchSlider:before {
     background-color: white;
     border-radius: 3px;
     color: black;
-    font-weight: bold;
+    font-weight: normal;
 }
 .settingsChangelogText a.commit-link:hover tt {
     text-decoration: underline;
@@ -2361,7 +2358,7 @@ input:checked + .toggleSwitchSlider:before {
 #settingsUpdateTitle {
     font-size: 16px;
     padding-left: 10px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Update version container. */
@@ -2377,12 +2374,12 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 50%;
     background: #23aa23;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     margin: 11px 12px;
     color: white;
     height: 15px;
     width: 15px;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 17px;
 }
 
@@ -2393,24 +2390,24 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Release type text. */
 #settingsUpdateVersionTitle {
-    font-size: 12px;
-    font-family: 'Avenir Medium';
+    font-size: 20px;
+    font-family: '나눔바른펜';
     color: #23aa23;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Current version text. */
 #settingsUpdateVersionLine {
-    font-size: 10px;
+    font-size: 15px;
     color: grey;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Update action container. */
 #settingsUpdateActionContainer {
     padding-top: 10px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Update action button styles. */
@@ -2421,7 +2418,7 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     border: none;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     cursor: pointer;
     outline: none;
     text-align: left;
@@ -2499,6 +2496,7 @@ input:checked + .toggleSwitchSlider:before {
     display: inline-flex;
     line-height: 24px;
     left: 50px;
+    font-size: 20px;
 }
 #landingContainer > #lower > #center {
     position: relative;
@@ -2521,7 +2519,8 @@ input:checked + .toggleSwitchSlider:before {
     top: 0px;
     height: 100%;
     width: 33%;
-    display: inline-flex;
+    display: inline-block;
+    right: 12.5%;
 }
 
 /*******************************************************************************
@@ -2591,9 +2590,9 @@ input:checked + .toggleSwitchSlider:before {
 
 /* News article title styles. */
 #newsArticleTitle {
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'Avenir Medium';
+    font-size: 22px;
+    font-weight: normal;
+    font-family: '나눔바른펜';
     color: white;
     text-decoration: none;
     transition: 0.25s ease;
@@ -2626,9 +2625,9 @@ input:checked + .toggleSwitchSlider:before {
 #newsArticleDate,
 #newsArticleAuthor {
     display: inline-block;
-    font-size: 10px;
+    font-size: 14px;
     padding: 0px 5px;
-    font-weight: bold;
+    font-weight: normal;
     border-radius: 2px;
 }
 
@@ -2648,7 +2647,7 @@ input:checked + .toggleSwitchSlider:before {
 #newsArticleComments {
     margin-top: 5px;
     display: inline-block;
-    font-size: 10px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     transition: 0.25s ease;
@@ -2672,7 +2671,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Article content styles. */
 #newsArticleContentScrollable {
-    font-size: 12px;
+    font-size: 20px;
     overflow-y: scroll;
     height: 100%;
     padding: 0px 15px 0px 15px;
@@ -2758,7 +2757,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Navigation status span. */
 #newsNavigationStatus {
-    font-size: 12px;
+    font-size: 20px;
     margin: 0px 15px;
 }
 
@@ -2826,8 +2825,8 @@ input:checked + .toggleSwitchSlider:before {
 }
 /* News error retry button styles. */
 #newsErrorRetry {
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: normal;
     cursor: pointer;
     background: none;
     border: none;
@@ -2855,19 +2854,21 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Logo image. */
 #image_seal {
-    height: 70px;
+    height: 120px;
     width: auto;
     position: relative;
     border: 2px solid white;
     box-sizing: border-box;
     border-radius: 50%;
+    display: inline-block;
+    left: 65%;
 }
 
 /* Logo container styles. */
 #image_seal_container {
     position: relative;
-    height: 70px;
-    width: 70px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     margin-top: 50px;
 }
@@ -2910,8 +2911,8 @@ input:checked + .toggleSwitchSlider:before {
     z-index: 1;
     top: 115%;
     left: -17.5px;
-    font-family: 'Avenir Medium';
-    font-size: 12px;
+    font-family: '나눔바른펜';
+    font-size: 20px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
 }
 #updateAvailableTooltip::after {
@@ -2974,14 +2975,16 @@ input:checked + .toggleSwitchSlider:before {
     border: 2px solid #cad7e1;
     box-sizing: border-box;
     background: rgba(1, 2, 1, 0.5);
-    height: 70px;
-    width: 70px;
+    height: 120px;
+    width: 120px;
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
     overflow: hidden;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    display: inline-block;
+    right: 65%;
 }
 
 /* Avatar edit overlay. */
@@ -2993,7 +2996,7 @@ input:checked + .toggleSwitchSlider:before {
     justify-content: center;
     align-items: center;
     transition: 0.25s ease;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: 2px;
     background-color: rgba(0, 0, 0, 0.35);
     -webkit-user-select: none;
@@ -3013,13 +3016,13 @@ input:checked + .toggleSwitchSlider:before {
 
 /* User profile name text. */
 #user_text {
-    font-size: 12px;
+    font-size: 20px;
     min-width: 135px;
     font-weight: 900;
     letter-spacing: 1px;
     text-shadow: 0px 0px 20px black;
     position: absolute;
-    right: 95px;
+    right: 180%;
     text-align: right;
     -webkit-user-select: initial;
 }
@@ -3114,7 +3117,7 @@ input:checked + .toggleSwitchSlider:before {
     position: absolute;
     z-index: 1;
     right: 130%;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
 }
@@ -3181,9 +3184,9 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Style for a general label on the bottom of the landing view. */
 .bot_label {
-    font-size: 9px;
+    font-size: 15px;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: normal;
     text-shadow: 0px 0px 0px #bebcbb;
 }
 
@@ -3209,7 +3212,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Span which displays the player count of the selected server. */
 #player_count {
     color: #949494;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 900;
     text-shadow: 0px 0px 20px #949494;
     margin-left: 10px;
@@ -3242,8 +3245,8 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 4px;
     padding: 5px 10px;
     z-index: 1;
-    font-family: 'Avenir Medium';
-    font-size: 12px;
+    font-family: '나눔바른펜';
+    font-size: 15px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
     bottom: calc(100% + 15px);
     transform: translateX(-50%);
@@ -3291,8 +3294,8 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Non essential service title text. */
 #mojangStatusNETitle {
-    font-size: 10px;
-    padding: 0px 3px;
+    font-size: 15px;
+    padding: 3px 3px;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -3305,7 +3308,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Displays the name of the mojang service. */
 .mojangStatusName {
     width: 100%;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 1px;
     line-height: 12px;
     padding: 6px 0px;
@@ -3376,7 +3379,7 @@ input:checked + .toggleSwitchSlider:before {
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 30px;
     display: flex;
     transition: 0.25s ease;
@@ -3391,6 +3394,7 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     top: 25px;
     display: inline-flex;
+    float: right;
 }
 
 /* The launch button. */
@@ -3401,18 +3405,18 @@ input:checked + .toggleSwitchSlider:before {
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0px;
     transition: 0.25s ease;
     outline: none;
 }
 #launch_button:hover,
 #launch_button:focus {
-    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
+    text-shadow: 0px 0px 25px #fff, 0px 0px 25px #fff;
 }
 #launch_button:active {
     color: #c7c7c7;
-    text-shadow: 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7;
+    text-shadow: 0px 0px 25px #c7c7c7, 0px 0px 25px #c7c7c7;
 }
 #launch_button:disabled {
     color: #c7c7c7;
@@ -3450,7 +3454,9 @@ input:checked + .toggleSwitchSlider:before {
     justify-content: center;
 }
 
-/* Button which opens the server selection view. */
+/*
+
+// Button which opens the server selection view. 
 #server_selection_button {
     background: none;
     border: none;
@@ -3468,6 +3474,7 @@ input:checked + .toggleSwitchSlider:before {
     color: #c7c7c7;
     text-shadow: 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7;
 }
+*/
 
 /* Progress bar styles. */
 #launch_progress[value] {
@@ -3557,17 +3564,17 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Overlay title styles. */
 #overlayTitle {
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: 1px;
     -webkit-user-select: initial;
 }
 
 /* Overlay description styles. */
 #overlayDesc {
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: normal;
     -webkit-user-select: initial;
 }
 
@@ -3583,8 +3590,8 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     border: 1px solid #ffffff;
     color: white;
-    font-family: 'Avenir Medium';
-    font-weight: bold;
+    font-family: '나눔바른펜';
+    font-weight: normal;
     border-radius: 2px;
     padding: 0px 8.1px;
     cursor: pointer;
@@ -3602,8 +3609,8 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Overlay dismiss option styles. */
 #overlayDismiss {
-    font-weight: bold;
-    font-size: 10px;
+    font-weight: normal;
+    font-size: 15px;
     text-decoration: none;
     padding-top: 2.5px;
     background: none;
@@ -3635,9 +3642,9 @@ input:checked + .toggleSwitchSlider:before {
 /* Server selection header. */
 #serverSelectHeader,
 #accountSelectHeader {
-    font-family: 'Avenir Medium';
+    font-family: '나눔바른펜';
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     color: #fff;
     margin-bottom: 25px;
 }
@@ -3764,14 +3771,14 @@ input:checked + .toggleSwitchSlider:before {
 /* The name of the server listing. */
 .serverListingName {
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Description for the server listing. */
 .serverListingDescription {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 10px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: left;
 }
 
@@ -3784,7 +3791,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* The minecraft version of the server listing. */
 .serverListingVersion {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -3799,7 +3806,7 @@ input:checked + .toggleSwitchSlider:before {
 /* The revision version of the server's manifest. */
 .serverListingRevision {
     color: #969696;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 12px;
     padding: 0px 5px;
 }
@@ -3823,7 +3830,7 @@ input:checked + .toggleSwitchSlider:before {
     position: absolute;
     z-index: 1;
     left: 130%;
-    font-size: 10px;
+    font-size: 15px;
     transition: visibility 0s linear 0.25s, opacity 0.25s ease;
 }
 .serverListingStarTooltip::after {
@@ -3858,8 +3865,8 @@ input:checked + .toggleSwitchSlider:before {
     background: none;
     border: 1px solid #ffffff;
     color: white;
-    font-family: 'Avenir Medium';
-    font-weight: bold;
+    font-family: '나눔바른펜';
+    font-weight: normal;
     border-radius: 2px;
     padding: 0px 8.1px;
     cursor: pointer;
@@ -3882,8 +3889,8 @@ input:checked + .toggleSwitchSlider:before {
 /* Server selection cancel button styles. */
 #serverSelectCancel,
 #accountSelectCancel {
-    font-weight: bold;
-    font-size: 10px;
+    font-weight: normal;
+    font-size: 15px;
     text-decoration: none;
     padding-top: 2.5px;
     color: rgba(202, 202, 202, 0.75);

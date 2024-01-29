@@ -2,6 +2,7 @@ const fs = require('fs-extra')
 const path = require('path')
 const toml = require('toml')
 const merge = require('lodash.merge')
+const { randomInt } = require('crypto')
 
 let lang
 
@@ -34,7 +35,12 @@ exports.queryEJS = function(id, placeHolders){
 
 exports.setupLanguage = function(){
     // Load Language Files
-    exports.loadLanguage('en_US')
+    if(randomInt(1, 101) == 1){
+        exports.loadLanguage('ko_KR')
+    }
+    else {
+        exports.loadLanguage('ko_KR')
+    }
     // Uncomment this when translations are ready
     //exports.loadLanguage('xx_XX')
 

@@ -17,4 +17,4 @@ supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
 [ejs.welcome]
 welcomeHeader = "Welcome"
 welcomeDescription = "이 런처는 이리단님의 런처입니다."
-welcomeDescCTA = "로그인과 몇번 클릭만으로 이 런처를 쉽게 사용할수있습니다."
+welcomeDescCTA = "로그인과 몇 번의 클릭만으로 쉽게 사용할 수 있습니다."
